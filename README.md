@@ -2,7 +2,7 @@
 # BADGES
 | Codacya Badge | Code Quality | Code Grade |Git Inspector](using github.io option)
 |---------------|--------------|------------|-------------------------------------
-|https://api.codiga.io/project/29877/status/svg|https://api.codiga.io/project/29877/score/svg [![Code Quality - Static Code - Cppcheck](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml)||[![Contribution Check - Git Inspector](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ae8bc59697d94ff2bf47b65def553d1f)](https://www.codacy.com/gh/40021039/M1_Previous-Project_Library-Mangment/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=40021039/M1_Previous-Project_Library-Mangment&amp;utm_campaign=Badge_Grade)|https://api.codiga.io/project/29877/status/svg|https://api.codiga.io/project/29877/score/svg [![Code Quality - Static Code - Cppcheck](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml)||[![Contribution Check - Git Inspector](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml)
 
 
 # Folder Structure
