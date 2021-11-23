@@ -16,9 +16,9 @@
 |`7_Other`|other information|
 
 # ISSUE TRACKING
-|ID|NAME|FEATURES|ISSUES RAISED|ISSUES RESOLVED|TOTAL 
+|ID|NAME|FEATURES|ISSUES RAISED|ISSUES RESOLVED| 
 |:----|:---|:-------|:------------|:--------------|
-|40021039|PAILA PRASANTH|LIBRARY MANAGEMENT SYSTEM(ADD,SEARCH,ISSUE,DEL,VIEW)|No|No|||
+|40021039|PAILA PRASANTH|LIBRARY MANAGEMENT SYSTEM(ADD,SEARCH,ISSUE,DEL,VIEW)|No|No|
 
 # Challenges Faced and How Was It Overcome
 1.I have faced issues in file handling. so, I used strings.
