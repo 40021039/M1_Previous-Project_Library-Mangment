@@ -2,7 +2,7 @@
 # BADGES
 | Codacya Badge | Code Quality | Code Grade |Git Inspector](using github.io option)
 |---------------|--------------|------------|-------------------------------------
-|  |[![Code Quality - Static Code - Cppcheck](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml)| ||[![Contribution Check - Git Inspector](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml)
+|  |[![Code Quality - Static Code - Cppcheck](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/c-cpp.yml)||[![Contribution Check - Git Inspector](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/40021039/M1_Previous-Project_Library-Mangment/actions/workflows/gitinspector.yml)
 
 
 # Folder Structure
