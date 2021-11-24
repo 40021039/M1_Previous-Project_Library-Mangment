@@ -1,42 +1,55 @@
 #include<../inc/library_management_system.h>
 
 /**
- * @brief function to add new books to library
+ * @brief function to remove the records of a book
  * 
+ * @param id 
  * @return test_values 
  */
 
-test_values addition(int id,char name[],char author[])
+test_values deletebook(int id)
 {
     
     
     
     FILE *fp=NULL;
-    fp=fopen("bookLibrary.dat","ab+");
+    FILE *ft=NULL;
+    fp = fopen("bookLibrary.dat","rb");
+    ft = fopen("temp.dat","wb");
     
-    if(fp == NULL)
-    {
-        printf("\nError: while opening file\n");
-        return fail;
-    }
+    if(fp==NULL || ft==NULL)
+        {
+             printf("\nError: While opening file:\n");
+            return fail;
+        }
     else{
+        rewind(fp);
         
-        book *newBook = NULL;
-        newBook = malloc(sizeof(book));
-		
-        newBook->book_id = id;
-        strcpy(newBook->book_name,name);
+        book *discarded_book = (book*)malloc(sizeof(book));
+    while(fread(discarded_book,sizeof(book),1,fp)==1)
+    {
+        if(id != discarded_book->book_id)
+        {
+            
+            fwrite(discarded_book,sizeof(book),1,ft);
+            
+            
+        }
         
-    
+        
+        
 
-    strcpy(newBook->author_name,author);
-    
-    fwrite(newBook,sizeof(book),1,fp);
+    }
     fclose(fp);
-    free(newBook);
-    
+    fclose(ft);
+    free(discarded_book);
+  
+   remove("bookLibrary.dat");
+    rename("temp.dat","bookLibrary.dat");
     
     return pass;
-    } 
+    
+    
+        }
 
 }
